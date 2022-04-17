@@ -17,7 +17,7 @@ const Wrapper = styled("div")(({ theme }) => ({
 export default function Header() {
   return (
     <Wrapper>
-      <a href="https://avayofinance.com" target="__blank">
+      <a href="https://www.kyriosfinance.app/" target="__blank">
         <img src={logo} alt="" width={"100%"} style={{ marginTop: -48 }} />
       </a>
       <Connect responsive={false} />
