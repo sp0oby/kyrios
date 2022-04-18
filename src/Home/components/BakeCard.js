@@ -176,7 +176,7 @@ export default function BakeCard() {
   return (
     <CardWrapper>
       {loading && <LinearProgress color="secondary" />}
-      <CardContent style={{color: "#2CCBFF"}}>
+      <CardContent style={{color: "#5B7DB1"}}>
         <Grid
           container
           justifyContent="space-between"
