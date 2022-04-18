@@ -26,7 +26,7 @@ export default function ReferralLink({ address }) {
   return (
     <CardWrapper>
       <CardContent style={{ paddingLeft: 8, paddingRight: 8 }}>
-        <Typography style={{color: "#2CCBFF"}} gutterBottom variant="h5" textAlign="center">
+        <Typography style={{color: "#5B7DB1"}} gutterBottom variant="h5" textAlign="center">
           Referral Link
         </Typography >
         <Input style={{color: "black"}} value={address ? link : ""} readOnly />
@@ -35,7 +35,7 @@ export default function ReferralLink({ address }) {
           variant="body2"
           marginTop={2}
           paddingX={3}
-          style={{color: "#2CCBFF"}}
+          style={{color: "#5B7DB1"}}
         >
           Earn 12% of the METIS used to deposit from anyone who uses your
           referral link.
