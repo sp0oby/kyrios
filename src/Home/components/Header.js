@@ -21,7 +21,7 @@ export default function Header() {
         <img src={logo} alt="" width={"100%"} style={{ marginTop: -48 }} />
       </a>
       <Connect responsive={false} />
-      <Typography style={{color: "#2CCBFF"}} variant="h6" marginTop={-3}>
+      <Typography style={{color: "#5B7DB1"}} variant="h6" marginTop={-3}>
       The Godly METIS Reward Pool
       </Typography>
     </Wrapper>
