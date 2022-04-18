@@ -30,16 +30,16 @@ export default function NutritionFacts() {
   return (
     <CardWrapper >
       <CardContent >
-        <Typography style={{color: "#2CCBFF"}} variant="h5" borderBottom="6px solid" paddingBottom={1}>
+        <Typography style={{color: "#5B7DB1"}} variant="h5" borderBottom="6px solid" paddingBottom={1}>
           Investment
         </Typography>
         <Box  paddingTop={2}>
           {nutritionFacts.map((f) => (
             <Grid container key={f.label} justifyContent="space-between">
-              <Typography style={{color: "#2CCBFF"}} variant="body1" gutterBottom>
+              <Typography style={{color: "#5B7DB1"}} variant="body1" gutterBottom>
                 {f.label}
               </Typography>
-              <Typography style={{color: "#2CCBFF"}} gutterBottom>{f.value}%</Typography>
+              <Typography style={{color: "#5B7DB1"}} gutterBottom>{f.value}%</Typography>
             </Grid>
           ))}
         </Box>
